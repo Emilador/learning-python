@@ -34,7 +34,6 @@ while True:
         print("Wow! Very impressiv. \n")
         user_inputend = str(input("You wanna play again? [yes/no]\n  "))
         while ((user_inputend !="yes") and (user_inputend != "no")):
-            print(user_inputend)
             user_inputend=input("Please enter [yes/no]")
         if (user_inputend=="yes") :
             zahl,tries=reset_game()
