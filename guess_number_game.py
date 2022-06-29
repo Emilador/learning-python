@@ -9,13 +9,14 @@ def reset_game():
     print("OK. Let´s go again")
     tries = 0
     zahl = (random.randint(0, 100))
+    return zahl,tries
 
 while True:
     if (tries>5):
         print("You used too many tries. You fucking suck man!")
         user_inputend = str(input("You wanna play again? [yes/no]\n  "))
         if (user_inputend == "yes"):
-            reset_game()
+            zahl,tries=reset_game()
         else:
             print("OK. Hope you come back soon")
             break
@@ -26,7 +27,7 @@ while True:
         print("Wow! Very impressiv . \n")
         user_inputend = str(input("You wanna play again? [yes/no]\n  "))
         if (user_inputend=="yes") :
-            reset_game()
+            zahl,tries=reset_game()
         else:
             print("OK. Hope you come back soon")
             break
