@@ -1,6 +1,7 @@
 import random
 
-print("Hello and welcome to my little game. The Computer will make up a number between 1 and a 100. \n Your goal is it to guess the number  \n ")
+print("Hello and welcome to my little game. The Computer will make up a number between 1 and a 100. \n "
+      "Your goal is it to guess the number. You have 6 tries to make it. \n ")
 zahl=(random.randint(0,100))
 tries=0
 
@@ -26,7 +27,7 @@ while True:
     try:
         user_input = float(user_input)
     except ValueError:
-        print("That is not a number, you dumbass! Try again:")
+        print("That is not a number, you dumbass! Try again!")
         continue
     tries = tries + 1
     print("Your number of tries:" ,tries)
