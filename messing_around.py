@@ -1,7 +1,3 @@
-
-
-
-
 km=int(input("Bitte gib deine Kilometer ein: \n  "))
 
 def total_expenses(km):
