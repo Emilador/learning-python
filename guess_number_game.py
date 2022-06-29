@@ -3,7 +3,7 @@ import random
 print("Hello and welcome to my little game. The Computer will make up a number between 1 and a 100. \n Your goal is it to guess the number  \n ")
 zahl=(random.randint(0,100))
 tries=0
-print(zahl)
+
 
 def reset_game():
     print("OK. Let´s go again")
