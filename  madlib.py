@@ -45,7 +45,9 @@ while True:
         matlib3()
 
     again=input("You wan´t to play again?  [yes/no]")
-    if (again!="yes" and again!="no"):
+    while ((again!="yes" and again!="no")):
+        print("Please enter [yes/no]")
 
+    if again
 
 

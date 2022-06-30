@@ -1,4 +1,4 @@
-codewort = "haha"
+codewort = "Emil"
 
 while True:
     user_input = input("Gib bitte das Codewort ein dass es endlich aufhört: ")
